@@ -85,8 +85,10 @@ import "@css/theme-default.css";
 import { Nunito } from "next/font/google";
 import "./globals.css";
 
+
 // Load Nunito font using next/font/google
 const nunito = Nunito({
+  className: 'font-sans',
   subsets: ["latin"],
   weight: ["200", "300", "400", "500", "600", "700", "800", "900", "1000"],
   variable: "--nunito",
