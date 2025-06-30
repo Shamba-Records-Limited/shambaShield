@@ -1,0 +1,12 @@
+{
+  "/_not-found": "app/_not-found.js",
+  "/api/farmers/route": "app/api/farmers/route.js",
+  "/contact-us/page": "app/contact-us/page.js",
+  "/about/page": "app/about/page.js",
+  "/contact/page": "app/contact/page.js",
+  "/faq/page": "app/faq/page.js",
+  "/index-two/page": "app/index-two/page.js",
+  "/page": "app/page.js",
+  "/farmers/page": "app/farmers/page.js",
+  "/products/page": "app/products/page.js"
+}

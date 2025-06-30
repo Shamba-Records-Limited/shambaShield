@@ -1,6 +1,9 @@
 import Faq from "@/components/Faq";
 import PageBanner from "@/components/PageBanner";
 import ThrownLayout from "@/layouts/ThrownLayout";
+import Image from 'next/image';
+
+
 const page = () => {
   return (
     <ThrownLayout>
@@ -12,10 +15,10 @@ const page = () => {
         <div className="container">
           <div className="row">
             <div className="col-lg-6 col-md-12">
-              <div className="about-thumb">
-                <img src="assets/images/myImages/image/newImages/farmerBank.png" alt="" />
-                <div className="about-shape bounce-animate">
-                  <img src="assets/images/myImages/image/newImages/FramerShake3.png" alt="" />
+              <div className="about-thumb" style={{ position: 'relative', width: '100%', height: '400px' }}>
+                <Image src="/images/myImages/image/newImages/farmerBank.png" alt="" fill style={{ objectFit: 'cover' }} />
+                <div className="about-shape bounce-animate" style={{ position: 'relative', right: "-300px", width: '300px', height: '600px' }}>
+                  <Image src="/images/myImages/image/newImages/FramerShake3.png" alt="" fill style={{ objectFit: 'contain' }} />
                 </div>
               </div>
             </div>

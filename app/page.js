@@ -7,6 +7,8 @@ import { sliderProps } from "@/utility/sliderProps";
 import Sucsess from "@/components/Sucsess";
 import Link from "next/link";
 import { Swiper, SwiperSlide } from "swiper/react";
+import Image from 'next/image';
+
 const defaultPage = () => {
   return (
     <ThrownLayout header={2}>
@@ -41,7 +43,7 @@ const defaultPage = () => {
                       </div>
                     </div>
                     <div className="slider-shape3 dance3">
-                      <img src="assets/images/slider/shape3.png" alt="image" />
+                      <Image src="/images/slider/shape3.png" alt="image"  width={1080} height={500} />
                     </div>
                   </div>
                 </div>
@@ -156,7 +158,7 @@ const defaultPage = () => {
           <div className="row">
             <div className="col-lg-6 col-md-12">
               <div className="about-thumb">
-                <img src="assets/images/myImages/image/newImages/happyFarmers.jpg" alt="image" />
+                <Image src="/images/myImages/image/newImages/happyFarmers.jpg" alt="image" width={380} height={500} />
                 <div className="about-video-icon">
                   <a
                     className="video-vemo-icon venobox vbox-item"
@@ -169,9 +171,10 @@ const defaultPage = () => {
                 </div>
                 <div className="about-counter">
                   <div className="about-counter-thumb">
-                    <img
-                      src="assets/images/myImages/image/newImages/farmerProfile.png"
+                    <Image
+                      src="/images/myImages/image/newImages/farmerProfile.png"
                       alt="image"
+                     width={1080} height={500}
                     />
                   </div>
                   <div className="about-countent-content">
@@ -349,13 +352,15 @@ const defaultPage = () => {
             <div className="col-lg-5 col-md-6">
               <div className="contact-thumb">
                 <img
-                  src="assets/images/myImages/image/newImages/ladyCop.png"
+                  src="/images/myImages/image/newImages/ladyCop.png"
                   alt="image"
+                  
                 />
                 <div className="contact-shape bounce-animate">
                   <img
-                    src="assets/images/resource/contact-shape.png"
+                    src="/images/resource/contact-shape.png"
                     alt="image"
+                   style={{objectFit: 'cover'}}
                   />
                 </div>
               </div>
@@ -390,9 +395,11 @@ const defaultPage = () => {
               {/* start service items box */}
               <div className="service-items-box-two">
                 <div className="service-icon-thumb">
-                  <img
-                    src="assets/images/myImages/image/newImages/tractor.png"
+                  <Image
+                    src="/images/myImages/image/newImages/tractor.png"
                     alt="image"
+                    width={40}
+                    height={50}
                   />
                 </div>
                 <div className="service-items-title">
@@ -408,7 +415,7 @@ const defaultPage = () => {
                   </p>
                 </div>
                 <div className="service-items-thumb-two">
-                  <img src="assets/images/myImages/image/newImages/Machinery-1.png" alt="tractor" />
+                  <Image src="/images/myImages/image/newImages/Machinery-1.png" alt="tractor" width={300} height={300} />
                   <div className="service-items-icon-two">
                     <i className="bi bi-arrow-right" />
                   </div>
@@ -421,9 +428,11 @@ const defaultPage = () => {
               {/* start service items box */}
               <div className="service-items-box-two">
                 <div className="service-icon-thumb">
-                  <img
-                    src="assets/images/myImages/image/newImages/cow.png"
+                  <Image
+                    src="/images/myImages/image/newImages/cow.png"
                     alt="image"
+                   width={40}
+                    height={50}
                   />
                 </div>
                 <div className="service-items-title">
@@ -439,7 +448,7 @@ const defaultPage = () => {
                   </p>
                 </div>
                 <div className="service-items-thumb-two">
-                  <img src="assets/images/myImages/image/newImages/Herd-1.png" alt="image" />
+                  <Image src="/images/myImages/image/newImages/Herd-1.png" alt="image" width={300} height={300} />
                   <div className="service-items-icon-two">
                     <i className="bi bi-arrow-right" />
                   </div>
@@ -452,9 +461,11 @@ const defaultPage = () => {
               {/* start service items box */}
               <div className="service-items-box-two">
                 <div className="service-icon-thumb">
-                  <img
-                    src="assets/images/myImages/image/newImages/health.png"
+                  <Image
+                    src="/images/myImages/image/newImages/health.png"
                     alt="image"
+                    width={40}
+                    height={50}
                   />
                 </div>
                 <div className="service-items-title">
@@ -470,7 +481,7 @@ const defaultPage = () => {
                   </p>
                 </div>
                 <div className="service-items-thumb-two">
-                  <img src="assets/images/myImages/image/newImages/Clinic-1.png" alt="image" />
+                  <Image src="/images/myImages/image/newImages/Clinic-1.png" alt="image" width={300} height={300} />
                   <div className="service-items-icon-two">
                     <i className="bi bi-arrow-right" />
                   </div>
@@ -482,9 +493,12 @@ const defaultPage = () => {
               {/* start service items box */}
               <div className="service-items-box-two">
                 <div className="service-icon-thumb">
-                  <img
-                    src="assets/images/myImages/image/newImages/piggy-bank.png"
+                  <Image
+                    src="/images/myImages/image/newImages/piggy-bank.png"
                     alt="image"
+                    height={50}
+                    width={40}
+
                   />
                 </div>
                 <div className="service-items-title">
@@ -500,7 +514,8 @@ const defaultPage = () => {
                   </p>
                 </div>
                 <div className="service-items-thumb-two">
-                  <img src="assets/images/myImages/image/newImages/Produce-1.png" alt="image" />
+                  <Image src="/images/myImages/image/newImages/Produce-1.png" alt="image" width={300} height={300} />
+                 
                   <div className="service-items-icon-two">
                     <i className="bi bi-arrow-right" />
                   </div>
@@ -512,9 +527,11 @@ const defaultPage = () => {
             <div className="col-md-6 col-xl-4">
                <div className="service-items-box-two">
                 <div className="service-icon-thumb">
-                  <img
-                    src="assets/images/myImages/image/newImages/loan.png"
+                  <Image
+                    src="/images/myImages/image/newImages/loan.png"
                     alt="image"
+                   width={40}
+                    height={50}
                   />
                 </div>
                 <div className="service-items-title">
@@ -529,7 +546,7 @@ const defaultPage = () => {
                   </p>
                 </div>
                 <div className="service-items-thumb-two">
-                  <img src="assets/images/myImages/image/newImages/Loan-1.png" alt="image" />
+                  <Image src="/images/myImages/image/newImages/Loan-1.png" alt="image" width={300} height={300} />
                   <div className="service-items-icon-two">
                     <i className="bi bi-arrow-right" />
                   </div>
@@ -568,7 +585,7 @@ const defaultPage = () => {
                 </div>
                 <div className="choose-single-box">
                   <div className="choose-icon">
-                    <img src="assets/images/resource/choose1.png" alt="image" />
+                    <Image src="/images/resource/choose1.png" alt="image" width={40} height={40} />
                   </div>
                   <div className="choose-content">
                   <h4>Data-Driven Coverage</h4>
@@ -577,7 +594,7 @@ const defaultPage = () => {
                 </div>
                 <div className="choose-single-box">
                   <div className="choose-icon">
-                    <img src="assets/images/resource/choose2.png" alt="image" />
+                    <img src="/images/resource/choose2.png" alt="image" />
                   </div>
                   <div className="choose-content">
                     <h4>Real-Time Support </h4>
@@ -664,10 +681,10 @@ const defaultPage = () => {
             <div className="col-lg-4 col-md-6">
               <div className="work-process-single-box">
                 <div className="work-process-thumb">
-                  <img src="assets/images/myImages/image/newImages/Choose1.png" alt="image" />
+                  <img src="/images/myImages/image/newImages/Choose1.png" alt="image" />
                   <div className="work-process-shape rotateme">
                     <img
-                      src="assets/images/resource/work-border-shape.png"
+                      src="/images/resource/work-border-shape.png"
                       alt="image"
                     />
                   </div>
@@ -690,10 +707,10 @@ const defaultPage = () => {
             <div className="col-lg-4 col-md-6">
               <div className="work-process-single-box">
                 <div className="work-process-thumb">
-                  <img src="assets/images/myImages/image/newImages/Choose2.png" alt="image" />
+                  <img src="/images/myImages/image/newImages/Choose2.png" alt="image" />
                   <div className="work-process-shape rotateme">
                     <img
-                      src="assets/images/resource/work-border-shape.png"
+                      src="/images/resource/work-border-shape.png"
                       alt="image"
                     />
                   </div>
@@ -716,10 +733,10 @@ const defaultPage = () => {
             <div className="col-lg-4 col-md-6">
               <div className="work-process-single-box work">
                 <div className="work-process-thumb">
-                  <img src="assets/images/myImages/image/newImages/Choose-3.png" alt="image" />
+                  <img src="/images/myImages/image/newImages/Choose-3.png" alt="image" />
                   <div className="work-process-shape rotateme">
                     <img
-                      src="assets/images/resource/work-border-shape.png"
+                      src="/images/resource/work-border-shape.png"
                       alt="image"
                     />
                   </div>
@@ -991,9 +1008,11 @@ const defaultPage = () => {
                 <SwiperSlide className="col-lg-12">
                   <div className="testimonial-items-box">
                     <div className="testimonial-item-thumb">
-                      <img
-                        src="assets/images/myImages/image/newImages/Test-13.png"
+                      <Image
+                        src="/images/myImages/image/newImages/Test-13.png"
                         alt="image"
+                        width={120}
+                        height={120}
                       />
                     </div>
                     <div className="testimonial-item-content">
@@ -1020,9 +1039,11 @@ const defaultPage = () => {
                 <SwiperSlide className="col-lg-12">
                   <div className="testimonial-items-box">
                     <div className="testimonial-item-thumb">
-                      <img
-                        src="assets/images/myImages/image/newImages/Test-1.png"
+                      <Image
+                        src="/images/myImages/image/newImages/Test-1.png"
                         alt="image"
+                       width={120}
+                        height={120}
                       />
                     </div>
                     <div className="testimonial-item-content">
@@ -1048,9 +1069,11 @@ const defaultPage = () => {
                 <SwiperSlide className="col-lg-12">
                   <div className="testimonial-items-box">
                     <div className="testimonial-item-thumb">
-                      <img
-                        src="assets/images/myImages/image/newImages/Test-14.png"
+                      <Image
+                        src="/images/myImages/image/newImages/Test-14.png"
                         alt="image"
+                        width={120}
+                        height={120}
                       />
                     </div>
                     <div className="testimonial-item-content">
@@ -1076,9 +1099,11 @@ const defaultPage = () => {
                 <SwiperSlide className="col-lg-12">
                   <div className="testimonial-items-box">
                     <div className="testimonial-item-thumb">
-                      <img
-                        src="assets/images/myImages/image/newImages/Test-15.png"
+                      <Image
+                        src="/images/myImages/image/newImages/Test-15.png"
                         alt="image"
+                        width={120}
+                        height={120}
                       />
                     </div>
                     <div className="testimonial-item-content">

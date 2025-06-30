@@ -2276,7 +2276,7 @@ ul.accordion ul li a span {
 =================================================================*/
 
 .slider-area {
-  background: url(../images/myImages/image/newImages/oldFarmerSmiling.png);
+  background: url(/images/myImages/image/newImages/oldFarmerSmiling.png);
   background-color: black;
   background-repeat: no-repeat;
   height: 100vh;
@@ -2313,7 +2313,7 @@ ul.accordion ul li a span {
   width: 100%;
   display: flex;
   align-items: center;
-  background: url(../images/myImages/image/newImages/chatcow5.png);
+  background: url(/images/myImages/image/newImages/chatcow5.png);
   background-size:cover;
 }
 .slider-area.two {
@@ -2327,7 +2327,7 @@ ul.accordion ul li a span {
   width: 100%;
   display: flex;
   align-items: center;
-  background: url(../images/myImages/image/newImages/farmField.png);
+  background: url(/images/myImages/image/newImages/farmField.png);
   background-size:cover;
 }
 .slider-area.three {
@@ -2341,17 +2341,17 @@ ul.accordion ul li a span {
   width: 100%;
   display: flex;
   align-items: center;
-  background: url(../images/myImages/image/newImages/tractorAction.jpg);
+  background: url(/images/myImages/image/newImages/tractorAction.jpg);
   background-size:cover;
 }
 
 
 .slider-area.four {
-  background: url(../images/myImages/image/newImages/Clinic-1.png);
+  background: url(/images/myImages/image/newImages/Clinic-1.png);
   background-size:cover;
 }
 .slider-area.five {
-  background: url(../images/myImages/image/newImages/farmerBank.png);
+  background: url(/images/myImages/image/newImages/farmerBank.png);
   background-size:cover;
 }
 
@@ -2739,7 +2739,7 @@ border-radius:7px ;
 .choose-area2{
   position: relative;
   margin-top: -2px;
-  background: url(../images/footer/foooter-bg.jpg);
+  background: url(/images/footer/foooter-bg.jpg);
   /* background-color: #14c233; */
   background-size: cover;
  /* here mow */
@@ -4409,7 +4409,7 @@ margin-top: 2px;
 =================================================================*/
 
 .slider-area.style-four {
-  background: url(../images/slider/slider-bg4.jpg);
+  background: url(/images/slider/slider-bg4.jpg);
   height: 950px;
 }
 
@@ -5529,12 +5529,12 @@ section.banner-section.style-five .owl-nav {
 /* slider area */
 
 .slider-area.dark {
-  background: url(../images/slider/dark3.png);
+  background: url(/images/slider/dark3.png);
   background-size: cover;
 }
 
 .slider-area.two.dark {
-  background: url(../images/slider/dark3.3.png);
+  background: url(/images/slider/dark3.3.png);
   background-size: cover;
 }
 /* about area */
@@ -5918,7 +5918,7 @@ section.banner-section.style-five .owl-nav {
 /* slider area style four */
 
 .slider-area.dark4.style-four {
-  background: url(../images/slider/dark5.png);
+  background: url(/images/slider/dark5.png);
   background-size: cover;
 }
 

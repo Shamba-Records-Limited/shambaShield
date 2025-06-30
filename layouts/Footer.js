@@ -13,9 +13,9 @@ const Footer = () => {
   <img src="assets/images/myImages/image/newImages/shambalogo.svg" alt="Shamba Records Logo" />
 </a>
               </div>
-              <div className="footer-wiget-text">
-                <h4>Say Hello!</h4>
-              </div>
+              <button className="footer-wiget-text text-white p-2 bg-transparent mt-3 border-1 rounded-lg border-solid border-white rounded-sm text-10px border-radius-12px" onClick={() => window.open('https://www.shambarecords.com', '_blank')}>
+                Visit Shamba Records
+              </button>
               {/* <div className="footer-shape-title">
                 <h3>Discover our app</h3>
               </div>
