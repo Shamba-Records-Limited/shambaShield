@@ -12,55 +12,7 @@ import "@css/owl.carousel.min.css";
 import "@css/owl.transitions.css";
 import "@css/responsive.css";
 import "@css/style.css";
-// import "@css/swiper.min.css";
-// import Preloader from "@/components/Preloader";
 import "@css/theme-default.css";
-// import { Nunito} from "next/font/google";
-// import "./globals.css";
-
-// // const heebo = Heebo({
-// //   subsets: ["latin"],
-// //   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
-// //   variable: "--heebo",
-// //   display: "swap",
-// // });
-
-// // const jost = Jost({
-// //   subsets: ["latin"],
-// //   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
-// //   variable: "--jost",
-// //   display: "swap",
-// // });
-
-
-
-// // added
-// const nunito = Nunito({
-//   subsets: ["latin"],
-//   weight: ["200", "300", "400", "500", "600", "700", "800", "900", "1000"],
-//   variable: "--nunito",
-//   display: "swap",
-// });
-
-// // const fontFamily = `${jost.variable} ${heebo.variable}`;
-
-
-// // Added
-// const fontFamily = `${nunito.variable}`;
-// // 
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 export const metadata = {
   title:
@@ -68,17 +20,6 @@ export const metadata = {
   description: "Insurance That caters for Farmer needs",
 };
 
-// export default function RootLayout({ children }) {
-//   return (
-//     <html lang="en">
-//       <body className={fontFamily}>
-//         <Preloader />
-//         {children}
-//       </body>
-//     </html>
-//   );
-// }
-// File: app/layout.js or app/globals.js (depending on your Next.js structure)
 
 import Preloader from "@/components/Preloader";
 import "@css/theme-default.css";

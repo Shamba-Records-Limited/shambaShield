@@ -39,10 +39,7 @@ const Productspage = () => {
                     <div className="br-line" />
                   </div>
                   <div className="serivice-discription">
-                    {/* <p>
-                    Income security if crop prices drop or buyers pull out.
-                    </p> */}
-                      {/* <h6 className="p-12">What it covers </h6> */}
+    
                       
         
                      <p className=" text-left">

@@ -9,7 +9,7 @@ const page = () => {
     <ThrownLayout>
       <PageBanner pageName={"About Us"} />
       {/*==================================================*/}
-      {/* Start Thrown About Area */}
+      {/* Start About Area */}
       {/*==================================================*/}
       <div className="about-area inner-page">
         <div className="container">
@@ -41,13 +41,6 @@ const page = () => {
                 <div className="about-title">
                   <h4>We Design Insurance That Understands Farmers</h4>
                 </div>
-                {/* <div className="about-discribtion">
-                  <p>
-                    Variations of passages of lorem in free market to available,
-                    but the majority have suffered alteration in some form, by
-                    injected humour,or randomised words
-                  </p>
-                </div> */}
                 <div className="row">
                   <div className="col-lg-6 col-md-6">
                     {/*start about single box */}
@@ -80,10 +73,10 @@ const page = () => {
         </div>
       </div>
       {/*==================================================*/}
-      {/* End Thrown About Area */}
+      {/* End About Area */}
       {/*==================================================*/}
       {/*==================================================*/}
-      {/* Start Thrown Choose Area */}
+      {/* Start Choose Area */}
       {/*==================================================*/}
       <div className="choose-area2">
         <div className="container">
@@ -145,143 +138,7 @@ We offers holistic insurance products for the modern farmer.
         </div>
       </div>
       {/*==================================================*/}
-      {/* End Thrown Choose Area */}
-      {/*==================================================*/}
-      {/*==================================================*/}
-      {/* Start Thrown Service Area */}
-      {/*==================================================*/}
-      {/* <div className="service-area">
-        <div className="container">
-          <div className="row">
-            <div className="col-lg-12">
-              <div className="section-title text-center">
-                <div className="section-sub-title">
-                  <h4>Provide Services</h4>
-                </div>
-                <div className="section-main-title">
-                  <h2>Choose a Coverage Plan That Grows With You</h2>
-                  <h2>Protection options tailored to farmers, cooperatives, and agri-partners.</h2>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="row">
-            <div className="col-md-6 col-xl-3">
-              <div className="service-single-box">
-                <div className="service-icon">
-                  <img src="assets/images/service/service-icon1.png" alt="" />
-                </div>
-                <div className="service-content">
-                  <div className="service-title">
-                    <h4>
-                      <a href="#">MarketGuard</a>
-                    </h4>
-                  </div>
-                  <div className="underline">
-                    <div className="br-line" />
-                  </div>
-                  <div className="serivice-discription">
-                    <p>
-                    Income security if crop prices drop or buyers pull out.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-md-6 col-xl-4">
-              <div className="service-single-box">
-                <div className="service-icon">
-                  <img src="assets/images/service/service-icon2.png" alt="" />
-                </div>
-                <div className="service-content">
-                  <div className="service-title">
-                    <h4>
-                      <a href="#">Farm Equipment Cover</a>
-                    </h4>
-                  </div>
-                  <div className="underline">
-                    <div className="br-line" />
-                  </div>
-                  <div className="serivice-discription">
-                    <p>
-                    Insure tractors, irrigation tools & essential machinery.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-md-6 col-xl-4">
-              <div className="service-single-box">
-                <div className="service-icon">
-                  <img src="assets/images/service/service-icon3.png" alt="" />
-                </div>
-                <div className="service-content">
-                  <div className="service-title">
-                    <h4>
-                      <a href="#">Livestock HealthCover</a>
-                    </h4>
-                  </div>
-                  <div className="underline">
-                    <div className="br-line" />
-                  </div>
-                  <div className="serivice-discription">
-                    <p>
-                    Disease, theft, and vet care protection for cattle, poultry, goats & more.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-md-6 col-xl-3">
-              <div className="service-single-box">
-                <div className="service-icon">
-                  <img src="assets/images/service/service-icon4.png" alt="" />
-                </div>
-                <div className="service-content">
-                  <div className="service-title">
-                    <h4>
-                      <a href="#">AgriHealth Plus</a>
-                    </h4>
-                  </div>
-                  <div className="underline">
-                    <div className="br-line" />
-                  </div>
-                  <div className="serivice-discription">
-                    <p>
-                    Health coverage for farmers & seasonal workers.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-md-6 col-xl-3">
-              <div className="service-single-box">
-                <div className="service-icon">
-                  <img src="assets/images/service/service-icon5.png" alt="" />
-                </div>
-                <div className="service-content">
-                  <div className="service-title">
-                    <h4>
-                      <a href="#">Farm Loan Protection</a>
-                    </h4>
-                  </div>
-                  <div className="underline">
-                    <div className="br-line" />
-                  </div>
-                  <div className="serivice-discription">
-                    <p>
-                    Covers loan payments when harvests fail or contracts collapse.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          
-          </div>
-        </div>
-      </div> */}
-      {/*==================================================*/}
-      {/* End Thrown Service Area */}
+      {/* End Choose Area */}
       {/*==================================================*/}
       {/*==================================================*/}
       {/* Start Thrown Faq Area */}
@@ -297,158 +154,7 @@ We offers holistic insurance products for the modern farmer.
         </div>
       </div>
       {/*==================================================*/}
-      {/* End Thrown Faq Area */}
-      {/*==================================================*/}
-      {/*==================================================*/}
-      {/* Start Thrown Team Area */}
-      {/*==================================================*/}
-      {/* <div className="team-area">
-        <div className="container">
-          <div className="row">
-            <div className="col-lg-12">
-              <div className="section-title text-center">
-                <div className="section-sub-title">
-                  <h4>OUR WORKERS</h4>
-                </div>
-                <div className="section-main-title team">
-                  <h2>Working With Excellentour</h2>
-                  <h2>Great Team</h2>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="row">
-            <div className="col-lg-4 col-md-6">
-              <div className="team-single-box">
-                <div className="team-thumb">
-                  <img src="assets/images/team/team1.png" alt="" />
-                  <div className="team-share-social">
-                    <div className="team-socail-icon">
-                      <a href="#">
-                        <span>
-                          <i className="fab fa-facebook-f" />
-                        </span>
-                      </a>
-                      <a href="#">
-                        <i className="fab fa-twitter" />
-                      </a>
-                      <a href="#">
-                        <i className="fab fa-linkedin-in" />
-                      </a>
-                      <a href="#">
-                        <i className="fab fa-pinterest-p" />
-                      </a>
-                    </div>
-                    <div className="team-btn">
-                      <div className="team-icon">
-                        <span>
-                          <i className="bi bi-share" />
-                        </span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="team-content">
-                  <div className="team-title">
-                    <h4>
-                      <a href="#">George Clooney</a>
-                    </h4>
-                    <span>Marketing Officer</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-4 col-md-6">
-              <div className="team-single-box">
-                <div className="team-thumb">
-                  <img src="assets/images/team/team2.png" alt="" />
-                  <div className="team-share-social">
-                    <div className="team-socail-icon">
-                      <a href="#">
-                        <span>
-                          <i className="fab fa-facebook-f" />
-                        </span>
-                      </a>
-                      <a href="#">
-                        <i className="fab fa-twitter" />
-                      </a>
-                      <a href="#">
-                        <i className="fab fa-linkedin-in" />
-                      </a>
-                      <a href="#">
-                        <i className="fab fa-pinterest-p" />
-                      </a>
-                    </div>
-                    <div className="team-btn">
-                      <div className="team-icon">
-                        <span>
-                          <i className="bi bi-share" />
-                        </span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="team-content">
-                  <div className="team-title">
-                    <h4>
-                      <a href="#">Dennis Barrett</a>
-                    </h4>
-                    <span>Head of Design</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-4 col-md-6">
-              <div className="team-single-box">
-                <div className="team-thumb">
-                  <img src="assets/images/team/team3.png" alt="" />
-                  <div className="team-share-social">
-                    <div className="team-socail-icon">
-                      <a href="#">
-                        <span>
-                          <i className="fab fa-facebook-f" />
-                        </span>
-                      </a>
-                      <a href="#">
-                        <i className="fab fa-twitter" />
-                      </a>
-                      <a href="#">
-                        <i className="fab fa-linkedin-in" />
-                      </a>
-                      <a href="#">
-                        <i className="fab fa-pinterest-p" />
-                      </a>
-                    </div>
-                    <div className="team-btn">
-                      <div className="team-icon">
-                        <span>
-                          <i className="bi bi-share" />
-                        </span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="team-content">
-                  <div className="team-title">
-                    <h4>
-                      <a href="#">Louis Ferguson</a>
-                    </h4>
-                    <span>Co-Founder</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="team-shape1 bounce-animate">
-            <img src="assets/images/team/team-shape1.png" alt="" />
-          </div>
-          <div className="team-shape2 bounce-animate">
-            <img src="assets/images/team/team-shape2.png" alt="" />
-          </div>
-        </div>
-      </div> */}
-      {/*==================================================*/}
-      {/* End Thrown Team Area */}
+      {/* End  Faq Area */}
       {/*==================================================*/}
     </ThrownLayout>
   );
